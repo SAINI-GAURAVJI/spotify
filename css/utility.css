@@ -1,0 +1,72 @@
+.border{
+    border: 2px solid rgb(50, 77, 158);
+    margin: 3px;
+}
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.item-center{
+    align-items: center;
+}
+.bg-black{
+    background-color: black;
+    color: #fff;
+}
+.invert{
+    filter:invert(1);
+    
+}
+.bg-grey{
+    background-color: #121212;
+}
+.rounded{
+    border-radius: 7px;
+}
+.m-1{
+    margin: 5px;
+}
+.p-1{
+    padding: 10px;
+}
+button.normal{
+   font-size: 14px;
+   font-weight: lighter;
+   padding: 10px 27px;
+   color: #000;
+   background-color: #fff;
+   border-radius: 50px;
+   cursor: pointer;
+   border: none;
+   outline: none;
+   transition: 0.2s;
+}
+
+button.white{
+   font-size: 14px;
+   font-weight:lighter;
+   padding: 13px 30px;
+   color: rgb(213, 208, 208);
+   background-color:#080808; 
+   cursor: pointer;
+   border-radius: 50px;
+   border: none;
+   transition: 0.2s;
+}
+/* Track */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #333; /* dark grey */
+    height: 20px; /* adjust the height of the scrollbar thumb */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; /* lighter grey */
+}
